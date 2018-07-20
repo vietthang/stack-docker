@@ -3,17 +3,20 @@ instances:
     dns:
       - elasticsearch
       - localhost
+      - elk.staging.focal-labs.com
     ip:
       - 127.0.0.1
   - name: kibana
     dns:
       - kibana
       - localhost
+      - elk.staging.focal-labs.com
     ip:
       - 127.0.0.1
   - name: logstash
     dns:
       - logstash
       - localhost
+      - elk.staging.focal-labs.com
     ip:
       - 127.0.0.1
